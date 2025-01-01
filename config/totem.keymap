@@ -73,10 +73,10 @@
         Layer_2 {
             label = "Layer_2";
             bindings = <
-         &kp F1    &kp F2   &kp F3    &kp F4     &kp F5          &kp F6  &kp F7    &kp F8  &kp F9     &kp F10
-         &trans    &trans   &trans    &trans     &kp CAPSLOCK    &trans  &trans    &trans  &trans     &trans
-&kp F11  &kp HOME  &kp END  &kp LEFT  &kp RIGHT  &trans          &trans  &kp DOWN  &kp UP  &kp PG_DN  &kp PG_UP  &kp F12
-                            &trans    &trans     &kp DELETE      &trans  &trans    &trans
+         &kp F1    &kp F2   &kp F3        &kp F4     &kp F5        &kp F6  &kp F7    &kp F8  &kp F9     &kp F10
+         &trans    &trans   &trans        &trans     &trans        &trans  &trans    &trans  &trans     &trans
+&kp F11  &kp HOME  &kp END  &kp LEFT      &kp RIGHT  &trans        &trans  &kp DOWN  &kp UP  &kp PG_DN  &kp PG_UP  &kp F12
+                            &kp CAPSLOCK  &trans     &kp DELETE    &trans  &trans    &trans
             >;
         };
 
